@@ -4,14 +4,6 @@ A terminal-based molecule visualizer for ChronusQ input files (`.inp`). Features
 
 ![Demo](demo.gif)
 
-## Features
-
-- 🎨 **Animated 3D molecule visualization** with element-specific colors
-- 📄 **Robust input parsing** adapted from ChronusQ
-- 🔍 **Interactive file picker** using fzf
-- 📊 **Parameter display** showing all input file settings
-- 🖥️ **Works in Kitty terminal** (requires graphics protocol support)
-
 ## Requirements
 
 - **Kitty terminal** (or another terminal supporting the Kitty graphics protocol)
@@ -30,13 +22,6 @@ A terminal-based molecule visualizer for ChronusQ input files (`.inp`). Features
    ```bash
    ./install.sh
    ```
-
-The installer will:
-- Install `fzf` using your system's package manager (pacman, apt, dnf, brew, or zypper)
-- Compile the qsee binary
-- Install files to `~/bin/qsee_bin/`
-- Place the `qsee` script in `~/.local/bin/`
-
 ## Usage
 
 ```bash
@@ -75,8 +60,6 @@ basis = 6-31G(D)
 ```
 
 ## Manual Build
-
-If you prefer to build manually:
 
 ```bash
 g++ -std=c++17 -O2 -o qsee_exe qsee.cpp Input.cpp -lm
