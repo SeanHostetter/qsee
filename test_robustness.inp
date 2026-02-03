@@ -1,0 +1,5 @@
+[Molecule]
+  charge =   1 
+   mult = 2 
+geom:
+  H 0.0   0.0 0.0
