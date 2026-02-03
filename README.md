@@ -2,7 +2,7 @@
 
 A terminal-based molecule visualizer for ChronusQ input files (`.inp`). Features animated 3D rendering using the Kitty graphics protocol.
 
-![Demo](demo.mp4)
+![Demo](demo.gif)
 
 ## Requirements
 
