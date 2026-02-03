@@ -2,7 +2,7 @@
 
 A terminal-based molecule visualizer for ChronusQ input files (`.inp`). Features animated 3D rendering using the Kitty graphics protocol.
 
-![Demo](demo.gif)
+![Demo](demo.mp4)
 
 ## Requirements
 
@@ -64,7 +64,3 @@ basis = 6-31G(D)
 ```bash
 g++ -std=c++17 -O2 -o qsee_exe qsee.cpp Input.cpp -lm
 ```
-
-## License
-
-MIT License
